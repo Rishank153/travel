@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QuickTrips - Travel Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="header-top">
+            <div class="header-logo">
+                <h1>QuickTrips</h1>
+                <img src="logo.jpg" alt="QuickTrips Logo">
+            </div>
+            <nav class="header-nav">
+                <a href="#home">Home</a>
+                <a href="#about-us">About Us</a>
+                <a href="#contact">Contact</a>
+            </nav>
+            <div class="header-btn-group">
+                <button class="book-now">Book Now</button>
+                <button class="menu-toggle">☰</button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <h1 class="hero-title">Welcome to QuickTrips</h1>
+        <p class="hero-text">Discover the world with us and find your dream destination.</p>
+        <div class="btn-group">
+            <button class="btn btn-primary">Explore</button>
+            <button class="btn btn-secondary">Learn More</button>
+        </div>
+    </section>
+
+    <!-- Tour Search Section -->
+    <section class="tour-search">
+        <div class="tour-search-form">
+            <div class="search-fields">
+                <div class="input-wrapper">
+                    <label class="input-label" for="destination">Enter Destination</label>
+                    <input id="destination" type="text" class="input-field" placeholder="e.g. Paris">
+                </div>
+                <div class="input-wrapper">
+                    <label class="input-label" for="pax-number">Max Number*</label>
+                    <input id="pax-number" type="number" class="input-field" min="1">
+                </div>
+                <div class="input-wrapper">
+                    <label class="input-label" for="check-in-date">Check-in Date**</label>
+                    <input id="check-in-date" type="date" class="input-field">
+                </div>
+                <div class="input-wrapper">
+                    <label class="input-label" for="check-out-date">Checkout Date*</label>
+                    <input id="check-out-date" type="date" class="input-field">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Popular Destinations Section -->
+    <section class="popular">
+        <h2 class="section-title">Popular Destinations</h2>
+        <p class="section-text">Explore our top destinations that our customers love.</p>
+        <div class="popular-list">
+            <div class="popular-card">
+                <div class="card-img">
+                    <img src="taj_mahal.jpg" alt="Taj Mahal">
+                </div>
+                <div class="card-content">
+                    <h3 class="card-title"><a href="#">Taj Mahal</a></h3>
+                    <p class="card-text">A symbol of love and one of the most beautiful buildings in the world.</p>
+                </div>
+            </div>
+            <div class="popular-card">
+                <div class="card-img">
+                    <img src="burj-khalifa.jpg" alt="Burj Khalifa">
+                </div>
+                <div class="card-content">
+                    <h3 class="card-title"><a href="#">Burj Khalifa</a></h3>
+                    <p class="card-text">The tallest building in the world, offering breathtaking views of Dubai.</p>
+                </div>
+            </div>
+            <div class="popular-card">
+                <div class="card-img">
+                    <img src="jaipur.jpeg" alt="Jaipur">
+                </div>
+                <div class="card-content">
+                    <h3 class="card-title"><a href="#">Jaipur</a></h3>
+                    <p class="card-text">Jaipur, known as the "Pink City," is a vibrant blend of rich history, stunning architecture, and cultural heritage in the heart of Rajasthan, India.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Adventure Section -->
+    <section class="adventure">
+        <h2 class="section-title">Adventure Awaits</h2>
+        <p class="section-text">From soaring peaks to deep oceans, embark on an adventure that will awaken your spirit. Whether you're seeking adrenaline-pumping activities or serene explorations, we have something for everyone.</p>
+        <div class="adventure-gallery">
+            <div class="adventure-item">
+                <img src="Img1.jpeg" alt="Discover breathtaking mountain adventures">
+                <p class="adventure-caption">Embark on an exhilarating journey through the rugged terrain and scenic vistas of the mountain region.</p>
+            </div>
+            <div class="adventure-item">
+                <img src="Img2.jpeg" alt="Relaxing beach getaway">
+                <p class="adventure-caption">Enjoy a serene beach escape with crystal-clear waters and picturesque surroundings.</p>
+            </div>
+            <div class="adventure-item">
+                <img src="Img3.jpeg" alt="Hiking the Inca Trail">
+                <p class="adventure-caption">Trek the ancient Inca Trail and discover the mysteries of various places.</p>
+            </div>
+            <div class="adventure-item">
+                <img src="img5.png" alt="Safari Adventure">
+                <p class="adventure-caption">Experience the thrill of a wildlife safari and get close to nature.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Us Section -->
+    <section class="contact" id="contact">
+        <h2 class="section-title">Contact Us</h2>
+        <p class="contact-text">Feel free to contact and reach us!</p>
+        <div class="contact-info">
+            <p><strong>Phone:</strong> 91+ 8448053947</p>
+            <p><strong>Email:</strong> <a href="mailto:info@tourly.com">info@tourly.com</a></p>
+            <p><strong>Address:</strong> 124 Bareilly, India</p>
+        </div>
+        <div class="newsletter">
+            <h3>Subscribe to Our Newsletter</h3>
+            <p>Subscribe to our newsletter for more updates and news!</p>
+            <form class="newsletter-form">
+                <label for="newsletter-email">Enter Your Email</label>
+                <input id="newsletter-email" type="email" class="input-field" placeholder="Your Email" required>
+                <button type="submit" class="subscribe-btn">Subscribe</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-top">
+            <nav class="footer-list">
+                <a href="#home" class="footer-link">Home</a>
+                <a href="#about-us" class="footer-link">About Us</a>
+                <a href="#contact" class="footer-link">Contact</a>
+            </nav>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 QuickTrips. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Lightbox for Adventure Images -->
+    <div class="lightbox">
+        <img src="" alt="Lightbox Image">
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
